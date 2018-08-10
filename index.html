@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>_arquive</title>
+    <link rel="stylesheet" href="style.css">
     <script language="JavaScript"></script>
 </head>
 <body>
@@ -17,14 +18,15 @@
 </head>
 <body>
      <h4> Preencha o Formulário para efetuar o cadastro no nosso site</h4>
+    
 
 
 <div class="cadastro">
      <form method="POST" action="cadastro.php" onsubmit="return valida_dados(this)">
-<p>*Nome: <input type="text" name="nome" size="23"></p>
-<p>*E-mail: <input type="text" name="email" size="23"></p>
+<p>*Nome: <input type="text" name="nome" ></p>
+<p>*E-mail: <input type="text" name="email"></p>
 <p>*Estado:
-<select size="1" name="estado">
+<select size="1" class="Estado">
 <option value="AC">AC</option>
 <option value="AL">AL</option>
 <option value="AM">AM</option>
@@ -55,9 +57,9 @@
 
 </select>
 </p>
-<P>*Login: <input type="text" name="login" size="23"></P>
-<p>*Senha: <input type="password" name="senha" size="23"></p>
-<p>*Confirme sua senha: <input type="password" name="confirmacao" size="23"></p>
+<P>*Login: <input type="text" name="login" ></P>
+<p>*Senha: <input type="password" name="senha"></p>
+<p>*Confirme sua senha: <input type="password" name="confirmacao" ></p>
 <p><input type="submit" value="Enviar" name="enviar"></p>
 </form>
 </div>
@@ -65,7 +67,7 @@
 
     <footer>
     <ol class="menu">
-       <li> <button>Contato</button> </li>
+       <li> <button>contato</button> </li>
        <li> <button>Nossos termos</button> </li>
        <li> <button>Trabalhe conosco</button> </li>
        <li> <button>Ajuda</button> </li>
@@ -73,3 +75,4 @@
     </footer>
 </body>
 </html>
+

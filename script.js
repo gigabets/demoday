@@ -60,7 +60,7 @@ if (nomeform.senha.value== nomeform.confirmacao.value){
         });
     }
     
-    render() {
+    render() 
 
     if(this.state.autenticado){
         return(
@@ -84,4 +84,4 @@ if (nomeform.senha.value== nomeform.confirmacao.value){
             )
         }
     }
-export default FormLogin;
+export default FormLogin

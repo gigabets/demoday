@@ -5,7 +5,7 @@ body {
     width: 60vw;
     background-color: lightgray;
   }
-
+  
 .login{
     display: flex;
     flex-direction: column;
@@ -16,4 +16,41 @@ body {
     align-items: center;
     justify-content: center;
     border: 10cm;
+}
+.menu{
+    list-style:none; 
+border:1px solid #a11212; 
+float:left; 
+
+}
+.cadastro{
+    width: 80px;
+  
+}
+
+.cadastro input {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.cadastro form{
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.estado{
+    border: 86;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: black;
+    margin-top: 15px;
+    margin-right: 30px;
 }
