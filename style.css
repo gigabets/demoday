@@ -1,10 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    width: 60vw;
-    background-color: lightgray;
-    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(30, 124, 212);
+   overflow-x: hidden;
   }
   
 .login{
@@ -19,17 +18,14 @@ body {
     border: 10cm;
 }
 .menu{
-    list-style:none; 
-border:1px solid #a11212; 
-float:left; 
+    list-style:none;
 display: flex;
 height: 12vh;
-background-color:#17252a;
-flex-direction: row;
 align-items: center;
-color: white;
 width: 100%;
-justify-content: center;
+justify-content: space-around;
+background-color: black;
+
 }
 .cadastro{
     width: 80px;
@@ -63,13 +59,11 @@ justify-content: center;
     margin-right: 30px;
 }
 .banner{
-    background-image: url(https://image.freepik.com/fotos-gratis/pessoas-de-negocios-parceiros-discutindo-e-conversando-com-documentos-de-trabalho-e-ideias-em_28976-285.jpg);
-    display: flex;
-    display: inline;
-    align-items: center;
-    justify-content: space-between;
-    height: 500px;
-    border-bottom: 5px solid white;
+    background-image: url(Sem\ Título-1.jpg);
+    background: blue
+
+   
+    
     
 }
 section div{
